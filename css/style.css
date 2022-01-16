@@ -1,0 +1,474 @@
+.Logo-M {
+    z-index: 9999999999999;
+    display: none;
+}
+.para-4 {
+    font-family: 'Roboto', sans-serif; position: absolute; left: 430px; top: 2090px;
+}
+.Title-2 {
+    position: absolute; top: 2040px; left: 430px; font-family: 'Roboto', sans-serif;
+}
+.body {
+    background-color: #F5F5F5;
+}
+.nav {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #F5F5F5;
+    z-index: 998;
+    height: 70px;
+    background-color: red;
+}
+.nav-link {
+    list-style: none;
+    position: fixed;
+    z-index: 999;
+    right: 100px;
+    
+}
+.nav-link li{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    z-index: 999;
+}
+.nav-link i{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: larger;
+    color: black;
+    z-index: 999;
+}
+.fa-shopping-cart {
+    font-size: 30px;
+    position: fixed;
+    right: 0px;
+    top: 20px;
+    z-index: 999;
+}
+.nav-a {
+    color: black;
+    text-decoration: none;
+}
+.Logo {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    position: fixed;
+    /* top: -5px; */
+    z-index: 999;
+    font-size: 25px;
+    /* left: 320px; */
+    color: black;
+}
+.Title {
+    position: absolute;
+    top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.container {
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.camera-1 {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 998;
+}
+.camera-div-parent {
+    border: 2px solid rgba(110, 107, 107, 0.801);  
+    width: 300px;
+    height: 300px;
+    border-radius: 999pc;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+.camera-div-child {
+    width: 220px;
+    height: 220px;
+    background-color: hsla(268, 100%, 88%, 0.822);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 999pc;
+}
+.company {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 450px;
+    padding-left: 10px;
+}
+.logos {
+    padding: 15px;
+}
+.para-1 {
+    position: absolute;
+    top: 230px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.btn-1 {
+    position: absolute;
+    top: 330px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #E22E6D;
+    border-radius: 999px;
+    width: 200px;
+    height: 50px;
+    border: transparent;
+}
+.Product-1 {
+    width: 270px;
+    height: 400px;
+    background-color: white;
+    margin-top: 650px;
+    border-radius: 10px;
+}
+.Product-2 {
+    width: 270px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+.PROPAD {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.PI {
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.details {
+    padding-left: 10px;
+    margin-top: 80px;
+    color: grey;
+}
+.Name {
+    position: absolute;
+    padding-left: 10px;
+}
+.btn-2 {
+    color: #E22E6D;
+    text-align: right;
+    margin-right: 10px;
+}
+.btn-3{
+    position: absolute;
+    top: 2150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #E22E6D;
+    width: 200px;
+    height: 50px;
+    border: transparent;
+    left: 430px;
+}
+.Main-Footer {
+    background-color: #0A0826;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 2300px;
+    left: 0px;
+}
+.FH {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.HP {
+    color: white;
+}
+.footer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Menu {
+    z-index: 10000;
+    color: black;
+    position: absolute;
+    top: -15px;
+    left: 50px;
+    border: transparent;
+    font-size: xx-large;
+    background-color: transparent;
+    display: none;
+}
+@media only screen and (max-width: 950px) {
+    .Menu {
+      display: block;
+      position: fixed;
+      left: 5px;
+      font-size: 25px;
+      top: 0px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .nav-3 {
+      display: none;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .nav {
+      height: 80px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Product-1 {
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      height: 450px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Product-2 {
+      width: 300px;
+      height: 450px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .PI {
+      width: 90%;
+      justify-content: center;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Main-Footer {
+      display: block;
+      margin-top: 3450px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .container {
+      width: 300px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .camera-1 {
+      width: 250px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+}
+@media only screen and (max-width: 300px) {
+    .camera-div-parent {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+    }
+}
+@media only screen and (max-width: 300px) {
+    .camera-div-child {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Title {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 260px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .para-1 {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 210px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .btn-1 {
+      font-size: 20px;
+      position: absolute;
+      transform: translate(-50%);
+      left: 50%;
+      top: 530px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .company {
+      font-size: 20px;
+      position: absolute;
+      transform: translate(-50%);
+      left: 50%;
+      top: 630px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .PROPAD {
+      margin-top: 820px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .PC {
+      margin-top: 285px;
+      font-size: 25px;
+      width: 300px;
+      text-align: center;
+
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Name {
+      margin-top: 270px;
+      font-size: 25px;
+      width: 300px;
+      text-align: center;
+
+    }
+}
+@media only screen and (max-width: 300px) {
+    .details {
+      font-size: 18px;
+      width: 300px;
+      text-align: center;
+
+    }
+}
+@media only screen and (max-width: 300px) {
+    .logo-1 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 65px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .logo-2 {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 65px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .logo-3 {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 65px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .logo-4 {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        width: 65px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .logo-5 {
+        position: absolute;
+        top: 55px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 65px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .logo-6 {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 65px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .logo-7 {
+        position: absolute;
+        top: 75px;
+        left: 53%;
+        transform: translate(-50%);
+        width: 105px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .hr-2 {
+        margin-top: 70px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Title-2 {
+        position: absolute;
+        top: 5350px;
+        left: 15px;
+        width: 300px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Gears {
+        width: 280px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .para-4 {
+        margin-top: 3300px;
+        text-align: center;
+        margin-left: -420px;
+        width: 270px;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .Logo {
+        font-size: 22px;
+        position: fixed;
+        left: 45px;
+        top: 4px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .btn-3 {
+        position: absolute;
+        top: 5460px;
+        left: 50px;
+}
+}
+@media only screen and (max-width: 300px) {
+    .nav {
+        width: 300px;
+}
+}
+@media only screen and (max-width: 300px) {
+    .body {
+        width: 300px;
+}
+}
